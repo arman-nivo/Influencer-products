@@ -18,6 +18,9 @@ li{
     align-items: center;
     justify-content: space-around;
 }
+.manu-bar{
+    display: none;
+}
 .manuleft{
 
 }

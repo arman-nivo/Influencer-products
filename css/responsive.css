@@ -11,7 +11,12 @@
     li{
         list-style: none;
     }
-    
+    .manu-bar {
+        display: inline;
+        position: absolute;
+        left: 10%;
+        top: 35px;
+    }
     .container{
         display: flex;
         flex-direction: row;
@@ -228,7 +233,12 @@
     }
     .manuleft>h1{
         position: relative;
-   
+        .manu-bar {
+            display: inline;
+            position: absolute;
+            left: 10%;
+            top: 35px;
+        }
     }
     .manuright {
         display: none;
